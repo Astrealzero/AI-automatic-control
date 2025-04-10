@@ -13,8 +13,8 @@ class linguistic:
             'Content-Type': 'application/json',
             'Accept': 'application/json'
         }
-        API_KEY = "UsguVpG6UcsP4fyk15uDnFvf"
-        API_SECRET = "mPuKsTRrsvyWJcvzzBsXrkjXqY7UoJLv"
+        API_KEY = "YOU_KEY"
+        API_SECRET = "YOU_SECRET"
         url = f"https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id={API_KEY}&client_secret={API_SECRET}"
 
         payload = ""
